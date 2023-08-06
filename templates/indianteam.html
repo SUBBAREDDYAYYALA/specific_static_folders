@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricketers Gallery</title>
+    <link rel="stylesheet" href="{% static 'css/team.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Indian Cricket Team</h1>
+        <img class="indian-flag" src="{% static 'images/indflag.jpeg' %}" alt="Indian Flag">
+    </header>
+    <main>
+        <div class="cricketer">
+            <img src="{% static 'images/kohli.jpg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'kohli' %}">Virat Kohli</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/rohit.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'rohit' %}">Rohit Sharma</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/kl.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'kl' %}">KL Rahul</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/bumrah.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'bumrah' %}">Jasprit Bumrah</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/Hardikpandya.jpg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'hardik' %}">Hardik Pandya</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/siraj.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'siraj' %}">Mohammed Siraj</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/shami.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'shami' %}">shami</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/iyer.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'iyer' %}">shreyas iyer</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/ShubmanGill.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'gill' %}">ShubmanGill</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/SuryakumarYadav.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'surya' %}">Suryakumaryadav</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/IshanKishan.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'ishan' %}">IshanKishan</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/chahal.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'chahal' %}">chahal</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/Sanju.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'sanju' %}">Sanju Samson</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/Ruturaj.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'ruturaj' %}">Ruturaj Gaikwad</a></p>
+        </div>
+        <div class="cricketer">
+            <img src="{% static 'images/Rahane.jpeg' %}" alt="">
+            <p class="cricketer-name"><a href="{% url 'rahane' %}">Ajinkya Rahane</a></p>
+        </div>
+
+    </main>
+</body>
+</html>

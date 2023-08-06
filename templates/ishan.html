@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishan Kishan</title>
+    <link rel="stylesheet" href="{% static 'css/player' %}">
+</head>
+<body>
+    <header>
+        <h1>Ishan Kishan</h1>
+    </header>
+    <main>
+        <article>
+            <img src="{% static 'images/IshanKishan.jpeg' %}" alt="">
+            <h2>Early Life and Career</h2>
+            <p>
+                Ishan Kishan, born on July 18, 1998, in Patna, Bihar, India, is a talented left-handed wicket-keeper batsman known for his aggressive batting style. He made his debut for the Indian cricket team in 2021 and has been a promising young talent in Indian cricket.
+            </p>
+
+            <h2>Indian Premier League (IPL)</h2>
+            <p>
+                Ishan Kishan gained recognition through his performances in the Indian Premier League (IPL). Representing the Mumbai Indians (MI), he has been a consistent performer in the tournament and has played several match-winning innings for the team.
+            </p>
+
+            <h2>International Debut</h2>
+            <p>
+                Ishan Kishan earned his maiden call-up to the Indian team in 2021 during the T20 series against England. He made an impressive debut, scoring a half-century, and showcased his aggressive yet composed batting style.
+            </p>
+
+            <h2>Playing Style</h2>
+            <p>
+                Ishan Kishan is known for his attacking approach to batting and is particularly effective against fast bowling. He has a wide range of shots and has the ability to clear the boundaries with ease.
+            </p>
+
+            <h2>Personal Life</h2>
+            <p>
+                Ishan Kishan keeps his personal life private and focuses on his cricketing career. He has been a role model for many aspiring cricketers and is admired for his dedication to the game.
+            </p>
+        </article>
+        <h1><a href="{% url 'indianteam' %}">BACK</a></h1>
+    </main>
+</body>
+</html>

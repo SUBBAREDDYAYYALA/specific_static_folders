@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Shami</title>
+    <link rel="stylesheet" href="{% static 'css/player' %}">
+</head>
+<body>
+    <header>
+        <h1>Mohammed Shami</h1>
+    </header>
+    <main>
+        <article>
+            <img src="{% static 'images/shami.jpeg' %}" alt="Mohammed Shami">
+            <h2>Early Life and Career</h2>
+            <p>
+                Mohammed Shami, born on September 3, 1990, in Amroha, Uttar Pradesh, India, is a talented right-arm fast bowler known for his ability to swing the ball and bowl at a consistent pace. He made his debut for the Indian cricket team in 2013 and has since become one of India's premier fast bowlers.
+            </p>
+
+            <h2>Bowling Style</h2>
+            <p>
+                Mohammed Shami is known for his seam movement and reverse swing, making him a potent threat in all formats of the game. He is capable of generating significant pace and has been a key wicket-taker for India in crucial matches.
+            </p>
+
+            <h2>International Success</h2>
+            <p>
+                Mohammed Shami has been a crucial part of India's bowling attack in all formats. He has performed exceptionally well in Test cricket, often leading the pace attack with his ability to pick up wickets in all conditions.
+            </p>
+
+            <h2>Indian Premier League (IPL)</h2>
+            <p>
+                In the Indian Premier League (IPL), Mohammed Shami has represented franchises like Kings XI Punjab (now Punjab Kings). He has been one of the team's leading bowlers and has consistently delivered match-winning performances.
+            </p>
+
+            <h2>Personal Life</h2>
+            <p>
+                Mohammed Shami is a private person and keeps his personal life away from the media. He is known for his work ethic and discipline, both on and off the field.
+            </p>
+        </article>
+        <h1><a href="{% url 'indianteam' %}">BACK</a></h1>
+    </main>
+</body>
+</html>

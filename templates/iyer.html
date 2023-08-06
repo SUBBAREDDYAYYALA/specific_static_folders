@@ -1,0 +1,45 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyas Iyer</title>
+    <link rel="stylesheet" href="{% static 'css/player' %}">
+</head>
+<body>
+    <header>
+        <h1>Shreyas Iyer</h1>
+    </header>
+    <main>
+        <article>
+            <img src="{% static 'images/iyer.jpeg' %}" alt="">
+            <h2>Early Life and Career</h2>
+            <p>
+                Shreyas Iyer, born on December 6, 1994, in Mumbai, India, is a talented right-handed batsman known for his elegant strokeplay and ability to anchor the innings. He made his debut for the Indian cricket team in 2017 and has been a consistent performer in domestic and international cricket.
+            </p>
+
+            <h2>Playing Style</h2>
+            <p>
+                Shreyas Iyer is known for his stylish batting and has a wide range of shots in his repertoire. He is particularly strong through the off-side and is effective against both pace and spin bowling. He is also a capable fielder and can contribute with his part-time leg-spin bowling.
+            </p>
+
+            <h2>Indian Premier League (IPL)</h2>
+            <p>
+                In the Indian Premier League (IPL), Shreyas Iyer has been associated with franchises like the Delhi Capitals (formerly Delhi Daredevils). He has been the captain of the team and has led them to success with his tactical acumen and leadership skills.
+            </p>
+
+            <h2>International Success</h2>
+            <p>
+                Shreyas Iyer has played crucial roles in India's middle order in limited-overs cricket. He has demonstrated the ability to build partnerships and accelerate the scoring rate when needed. He has been seen as a promising prospect for the Indian team in the middle order.
+            </p>
+
+            <h2>Personal Life</h2>
+            <p>
+                Shreyas Iyer keeps his personal life private and focuses on his cricketing career. He is admired for his dedication to the game and his calm demeanor on the field.
+            </p>
+        </article>
+        <h1><a href="{% url 'indianteam' %}">BACK</a></h1>
+    </main>
+</body>
+</html>
